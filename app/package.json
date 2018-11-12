@@ -1,0 +1,8 @@
+{
+  "name": "biztool-poc",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "latest",
+    "ioredis": "^4.2.0"
+  }
+}
