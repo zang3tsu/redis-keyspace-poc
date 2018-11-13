@@ -13,7 +13,7 @@ export default new class PubSub {
   }
 
   subscribe(channel) {
-    subscriber.subscribe(channel);
+    subscriber.psubscribe(channel);
   }
 
   on(event, callback) {
